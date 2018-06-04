@@ -13,7 +13,7 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     const is_toured = localStorage.getItem('is_toured');
     if (!is_toured) {
-      this.router.navigate(['/p/welcome']);
+      this.router.navigate(['/']);
     }
   }
 }
